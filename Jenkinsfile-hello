@@ -17,21 +17,5 @@ stages
 			sh 'echo code tested'
 }
 }
-	stage ("Please build the code")
-{
-		step
-{
-			sh 'echo war file created'
 }
 }
-	stage ("Please deploy the code")
-{
-		step
-{
-			sh 'echo code deployed'
-}
-}
-}
-}
-
-
