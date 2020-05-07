@@ -5,16 +5,30 @@ stages
 {
 	stage ("please download the code")
 {
-		step 
+		steps 
 {
 			sh 'echo code downloaded'
 }
 }
 	stage ("please test the code")
 {
-		step
+		steps
 {
 			sh 'echo code tested'
+}
+}
+	stage ("Please build the code")
+{
+		steps
+{
+			sh 'echo war file created'
+}
+}
+	stage ("Please deploy the code")
+{
+		steps
+{
+			sh 'echo code deployed'
 }
 }
 }
