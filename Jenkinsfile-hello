@@ -10,7 +10,7 @@ stages
 			sh 'echo code downloaded'
 }
 }
-	stage ("please test the code"
+	stage ("please test the code")
 {
 		step
 {
